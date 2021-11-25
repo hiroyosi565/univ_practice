@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+      
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        
+
+        <style>
+            .bg-img {
+                background-image: url(%E7%A6%8F%E5%B2%A1%E6%97%85%E6%B9%96%E5%85%AC%E5%9C%92.jpg);
+                text-align: center;
+                margin-top: 50px;
+            }
+            #email {
+                width: 300px;
+            }
+            #appSummary {
+                text-align: center;
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+            .card-img-top {
+                width: 100%;
+            }
+            #appStoreIcon {
+                width: 200px;
+            }
+            #footer {
+                background-color: aqua;
+                padding-top: 150px;
+                margin-top: 50%;
+                text-align: center;
+                padding-bottom: 150px;
+            }
+            body {
+                position: relative;
+            }
+            #cameraIcon {
+                width: 25px;
+            }
+
+        </style>
+  </head>
+  <body data-spy="scroll" data-target="#navbar" data-offset="150">
+      <nav class="navbar navbar-light bg-faded navbar-fixed-top" id="navber">
+          <a class="navber-brand" href="#">旅写真App</a>
+          <ul class="nav navber-nav">
+              <li class="nav-item">
+                  <a class="nav-link" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#footer">Download The App</a>
+              </li>
+          </ul>
+          <form class="form-inline pull-xs-right">
+              <input class="form-control" type="email" placeholder="Email">
+                <input class="form-control" type="password" placeholder="Password">
+              <button class="btn btn-success" type="submit">Login</button>
+          </form>
+      </nav>
+      
+      <div class="p-3 p-sm-5 mb-4 bg-img" id="jumbotron" style="color: white;font-weight: bold">
+          <h1 class="display-3">旅の写真を記録するApp!</h1>
+          <p class="lead">みんなの旅の思い出を写真とともに記録しよう！</p>
+          <hr clss="m-y-2">
+          <p>詳しく知りたい人はメーリングリストに参加しよう！</p>
+          
+          <form class="form-inline">
+              <div class="form-group">
+                  <label class="sr-only" for="email">Email Address</label>
+                  <div class="input-group">
+                      <div class="input-group-addon">@</div>
+                      <input type="email" class="form-control" id="email" placeholder="Your email">
+                  </div>
+              </div>
+              <buttun type="submit" class="btn btn-primary">Sign up</buttun>
+          </form>
+      </div>
+      
+      <div class="container">
+          <div class="row" id="appSummary">
+              <h1>このアプリのいいところ</h1>
+              <p class="lead">旅写真アプリの概要</p>
+          </div>
+      </div>
+      
+      <div class="container" id="about">
+          <div class="card-deck-wrapper">
+              <div class="card">
+                  <img class="card-img-top" src="yabakei.jpg" alt="Card image cap">
+                  <div class="card-block">
+                      <h4 class="card-title"><img id="cameraIcon" src="camera-fill.svg">耶馬渓イルミネーション</h4>
+                      <p class="card-text">これは大分県中津市の耶馬渓の写真です。冬になるとイルミネーションをして、とてもばえた写真を撮ることができます！</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <img class="card-img-top" src="dazasutaba.jpg" alt="Card image cap">
+                  <div class="card-block">
+                      <h4 class="card-title"><img id="cameraIcon" src="camera-fill.svg">スターバックスコーヒー太宰府天満宮表参道店</h4>
+                      <p class="card-text">これは太宰府天満宮にあるスターバックスコーヒーです。とてもユニークなデザインでほかの店舗にはない空間になっています。</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <img class="card-img-top" src="matama.jpg" alt="Card image cap">
+                  <div class="card-block">
+                      <h4 class="card-title"><img id="cameraIcon" src="camera-fill.svg">真玉海岸の夕日</h4>
+                      <p class="card-text">日本第3位の夕日を誇る真玉海岸です。余談ではありますが、私の地元です。</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <div id="footer">
+          <div class="row">
+              <h2>Download the app!</h2>
+              <p class="lead"></p>
+              <p><a href="https://apps.apple.com/jp/app/instagram/id389801252"><img id="appStoreIcon" src="App-Store-Icon.png"></a></p>
+          </div>
+      </div>
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
